@@ -10,5 +10,19 @@ background-attachment: fixed;
 #gradient {
     margin-top: 100px;
     height: 200px;
-    background: linear-gradient(to left, green, white,Black);
+    background: linear-gradient(to left, green, white,Black,yellow,cyan,blue);
+}
+@keyframes exampe {
+    0% {background-color: azure;}
+    25% {background-color: blanchedalmond;}
+    50% {background-color: bisque;}
+    75% {background-color: blue;}
+
+}
+.animation{
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    animation-name: example;
+    animation-duration: 50s;
 }
